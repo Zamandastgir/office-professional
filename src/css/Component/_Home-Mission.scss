@@ -1,0 +1,105 @@
+@import "./mixin/Mixin";
+@import "./Variable";
+
+.over-mossion{
+	@include over-mossion;
+
+	
+  }
+  .over-mossion h1{
+	position:absolute;
+	top:30px;
+	left:40%;
+  }
+	.over-mossion p{
+	position:absolute;
+	top:100px;
+	left:35%;
+	font-size:30px;
+	font-family:italic;
+  }
+  .over-mossion .line{
+	position:absolute;
+	left:10%;
+	top:160px;
+	width:80%;
+	height:0.5px;
+	background-color:black;
+	
+  }
+  .over-mossion .over-one,.over-two,.over-three,.over-four,.over-five,.over-six{
+		position: absolute;
+	top: 201px;
+	left: 10%;
+	width: 25%;
+	height: 250px;
+	background-color: black;
+  }
+  .over-mossion .over-two{
+		left: 37%;
+	width: 26%;
+  }
+	.over-mossion .over-three{
+	left:65%;
+  }
+	  .over-mossion .over-four{
+	top:500px;
+  }
+	  .over-mossion .over-five{
+	   top:500px;
+	left: 37%;
+	width: 26%;
+  }
+	  .over-mossion .over-six{
+	   top:500px;
+	left:65%;
+  }
+  .fa-5x {
+	padding:0px 16px 0px 15px;
+	box-sizing:border-box;
+	width:90px;
+	font-size: 5em;
+  color:#1bbd9b;
+  position:absolute;
+
+  top:10px;
+  left:37%;
+}
+
+.over-mossion .over-one h4,.over-two h4,.over-three h4,.over-four h4,.over-five h4,.over-six h4{
+  position:absolute;
+  top: 97px;
+  left: 38%;
+  color:white;
+}
+.over-mossion .over-one .fa-5x,.over-two .fa-5x,.over-three .fa-5x,.over-four .fa-5x,.over-five .fa-5x,.over-six .fa-5x {
+  
+  transition: 0.8s ease-in-out;
+}
+.over-mossion .over-one:hover .fa-5x,.over-two:hover .fa-5x,.over-three:hover .fa-5x,.over-four:hover .fa-5x,.over-five:hover .fa-5x,.over-six:hover .fa-5x {
+	color: white;
+	background: #1BBD9B;
+	border-radius: 8px;
+	
+  transform: rotateY(360deg);
+}
+
+.over-mossion .over-one p,.over-two p,.over-three p,.over-four p,.over-five p,.over-six p{
+  position:absolute;
+  top: 140px;
+	left: 2%;
+  font-size:20px;
+  color:white;
+  width:95%;
+  text-align:center;
+}
+.over-mossion .over-one a,.over-two a,.over-three a,.over-four a,.over-five a,.over-six a{
+  position:absolute;
+  left:35%;
+  color:#42a3a8;
+  bottom:20px;
+}
+.over-mossion .over-one a:hover,.over-two a:hover,.over-three a:hover,.over-four a:hover,.over-five a:hover,.over-six a:hover{
+  color:white;
+  
+}
